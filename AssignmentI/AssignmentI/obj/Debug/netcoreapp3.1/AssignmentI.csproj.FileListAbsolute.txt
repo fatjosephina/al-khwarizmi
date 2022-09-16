@@ -1,0 +1,11 @@
+D:\Documents\GitHub\al-khwarizmi\AssignmentI\AssignmentI\bin\Debug\netcoreapp3.1\AssignmentI.exe
+D:\Documents\GitHub\al-khwarizmi\AssignmentI\AssignmentI\bin\Debug\netcoreapp3.1\AssignmentI.deps.json
+D:\Documents\GitHub\al-khwarizmi\AssignmentI\AssignmentI\bin\Debug\netcoreapp3.1\AssignmentI.runtimeconfig.json
+D:\Documents\GitHub\al-khwarizmi\AssignmentI\AssignmentI\bin\Debug\netcoreapp3.1\AssignmentI.runtimeconfig.dev.json
+D:\Documents\GitHub\al-khwarizmi\AssignmentI\AssignmentI\bin\Debug\netcoreapp3.1\AssignmentI.dll
+D:\Documents\GitHub\al-khwarizmi\AssignmentI\AssignmentI\bin\Debug\netcoreapp3.1\AssignmentI.pdb
+D:\Documents\GitHub\al-khwarizmi\AssignmentI\AssignmentI\obj\Debug\netcoreapp3.1\AssignmentI.csprojAssemblyReference.cache
+D:\Documents\GitHub\al-khwarizmi\AssignmentI\AssignmentI\obj\Debug\netcoreapp3.1\AssignmentI.AssemblyInfoInputs.cache
+D:\Documents\GitHub\al-khwarizmi\AssignmentI\AssignmentI\obj\Debug\netcoreapp3.1\AssignmentI.AssemblyInfo.cs
+D:\Documents\GitHub\al-khwarizmi\AssignmentI\AssignmentI\obj\Debug\netcoreapp3.1\AssignmentI.dll
+D:\Documents\GitHub\al-khwarizmi\AssignmentI\AssignmentI\obj\Debug\netcoreapp3.1\AssignmentI.pdb
