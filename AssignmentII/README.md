@@ -1,16 +1,8 @@
-# al-khwarizmi
-Welcome to my algorithm portfolio!
+# Assignment II
+This is a Readme file for [>Assignment II<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentII/AssignmentII/Program.cs).
 
-This is a repository to hold my algorithms.
-# Week 1
-This week, I made a program which demonstrates constant time (O(1)), linear time (O(n)), and quadratic time (O(n^2)). The source code also contains comments explaining how each method demonstrates my understanding of Big O notation.
+This program demonstrates a the Fisher-Yates shuffle algorithm in two different ways. Both methods use extension classes and the Random class to shuffle an array of letters. All classes are included in the same .cs file for easier reading.
 
-View the source code [>here<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentI/AssignmentI/Program.cs).
-# Week 5
-This week, I made a program which demonstrates the Fisher-Yates shuffle algorithm in two different ways. I included several classes in the same .cs file for easier comprehensibility when viewed on GitHub. The source code also contains comments explaining how it demonstrates my understanding of the Fisher-Yates shuffle, ways that my code is different from the source used, and improvements I would make if I were to continue working on the project.
+* The first method starts at line 37. This method uses a decrementing for loop that runs through every letter in the letter array. It gets a random number between zero and the _i_ variable initialized in the loop, which starts equal to the length of the letter array minus one (```objects.Length - 1```). It then swaps the letters in the array that are indiced at _i_ and the random number. This is the Fisher-Yates shuffle because it is going through the array and swapping elements until every value in the array has been swapped at least once.
 
-View the source code [>here<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentII/AssignmentII/Program.cs).
-# Week 8
-This week, I made a program which demonstrates the creation of an array, a map in the form of a hash table, a stack, and a queue. The source code also contains comments explaining the differences between an array and a map (hash table) and between a stack and a queue, how they work, and when to use each one. The program reads lines from a text file and adds them to each data structure.
-
-View the source code [>here<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentIII/AssignmentIII/Program.cs).
+* The alternative method starts at line 48. This method uses an incrementing for loop which runs while it is smaller than the length of the letter array minus two (```objects.Length - 2```). This time, the random number is between zero and the length of the object array minus _i_, minus one (```(objects.Length - i) - 1```). It then swaps _i_ with _i_ plus the new number. This accomplishes the same result of the Fisher-Yates shuffle, but starts at the beginning of the array rather than the end.
