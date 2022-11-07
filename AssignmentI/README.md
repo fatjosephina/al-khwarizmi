@@ -1,16 +1,11 @@
-# al-khwarizmi
-Welcome to my algorithm portfolio!
+# Assignment I
+This is a Readme file for [>Assignment I<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentI/AssignmentI/Program.cs).
 
-This is a repository to hold my algorithms.
-# Week 1
-This week, I made a program which demonstrates constant time (O(1)), linear time (O(n)), and quadratic time (O(n^2)). The source code also contains comments explaining how each method demonstrates my understanding of Big O notation.
+This program demonstrates an understanding of Big O notation in the form of constant time (O(1)), linear time (O(n)), and quadratic time (O(n^2)). It does this by using different variations on writing "Hello."
 
-View the source code [>here<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentI/AssignmentI/Program.cs).
-# Week 5
-This week, I made a program which demonstrates the Fisher-Yates shuffle algorithm in two different ways. I included several classes in the same .cs file for easier comprehensibility when viewed on GitHub. The source code also contains comments explaining how it demonstrates my understanding of the Fisher-Yates shuffle, ways that my code is different from the source used, and improvements I would make if I were to continue working on the project.
+* Starting at line 15, O(1), or constant time, is demonstrated. It simply writes "Hello!" regardless of the value of _n_. Therefore, this method is in constant time, because regardless of the value of _n_, it will always take the same amount of time to execute.
 
-View the source code [>here<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentII/AssignmentII/Program.cs).
-# Week 8
-This week, I made a program which demonstrates the creation of an array, a map in the form of a hash table, a stack, and a queue. The source code also contains comments explaining the differences between an array and a map (hash table) and between a stack and a queue, how they work, and when to use each one. The program reads lines from a text file and adds them to each data structure.
+* Starting at line 22, O(n), also called linear time, is demonstrated. It uses a for loop to say hello to _n_ amount of people. This means that it is in linear time because the number of times that the loop runs is directly proportional to _n_.
 
-View the source code [>here<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentIII/AssignmentIII/Program.cs).
+
+* Finally, starting at line 32, O(n^2), or quadratic time, is demonstrated. The method uses nested for loops, which each run _n_ amount of times. In this hypothetical scenario, a teacher is saying hello to each of the classes that they teach. Each class has _n_ students and the teacher has _n_ classes. Therefore, the teacher says hello to each class and each member of the class says hello back to the teacher. Because the amount of times that the loops run is equal to n^2 (n * n), this method is in quadratic time.
