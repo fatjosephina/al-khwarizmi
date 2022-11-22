@@ -14,3 +14,7 @@ View the source code [>here<](https://github.com/fatjosephina/al-khwarizmi/blob/
 This week, I made a program which demonstrates the creation of an array, a map in the form of a hash table, a stack, and a queue. The source code also contains comments explaining the differences between an array and a map (hash table) and between a stack and a queue, how they work, and when to use each one. The program reads lines from a text file and adds them to each data structure.
 
 View the source code [>here<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentIII/AssignmentIII/Program.cs). View a Readme.md explaining the code in more detail [>here<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentIII/README.md).
+# Week 11
+This week, I made a program which demonstrates various sorting algorithms. The algorithms included are bubble sort, insertion sort, selection sort, heap sort, quick sort, and merge sort. The source code also contains comments including descriptions of each one, best and worst runtimes, and pseudocode versions of these algorithms. The program reads numbers from a text file and sorts them using the different algorithms. It then prints the runtimes for how long each one took to sort the data and compares them in a summary.
+
+View the source code [>here<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentV/AssignmentV/Program.cs).
