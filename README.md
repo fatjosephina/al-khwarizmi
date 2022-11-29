@@ -18,3 +18,7 @@ View the source code [>here<](https://github.com/fatjosephina/al-khwarizmi/blob/
 This week, I made a program which demonstrates various sorting algorithms. The algorithms included are bubble sort, insertion sort, selection sort, heap sort, quick sort, and merge sort. The source code also contains comments including descriptions of each one, best and worst runtimes, and pseudocode versions of these algorithms. The program reads numbers from a text file and sorts them using the different algorithms. It then prints the runtimes for how long each one took to sort the data and compares them in a summary.
 
 View the source code [>here<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentV/AssignmentV/Program.cs).
+# Assignment VI: Searching
+This week, I made a program which demonstrates searching algorithms. The algorithms included are linear sort, binary sort, and interpolation sort. The source code also contains comments including descriptions of each one, best and worst runtimes, and pseudocode versions of these algorithms. The program reads numbers from a text file and sorts them using the different algorithms. It then prints the runtimes for how long each one took to sort the data and compares them in a summary.
+
+View the source code [>here<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentVI/AssignmentVI/Program.cs).
