@@ -1,20 +1,16 @@
-# Assignment III: Data Structures
-This is a Readme file for [>Assignment III<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentIII/AssignmentIII/Program.cs).
+# Assignment VI: Searching
+This is a Readme file for [>Assignment VI<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentVI/AssignmentVI/Program.cs).
 
-This program demonstrates the creation of an array, a map (in the form of a hash table), a stack, and a queue. Each of these data structures takes information from a text file, called Countries.txt, and adds it to their data. The text file contains a list of all the countries recognized by the United Nations. Each section of the code also contains some lines which can be uncommented to print the data in each structure.
+This program demonstrates three different searching algorithms which are used to search the same array of numbers taken from a text file for a pseudorandom number. It then compares how well each algorithm performs time-wise and displays a summary. The searching algorithms included are linear search, binary search, and interpolation search. The code is divided into regions, which each include the implementation of a single algorithm along with comments displaying its name, description, best case runtime, worst case runtime, and the algorithm in pseudocode form. For binary search and interpolation search which require sorted arrays, quick sort is used to sort the array.
 
-* The region showing how the information can be stored in an array starts at line 16. This is pretty simple code in C# because arrays will automatically take each line from the text document and store it in the array if they are equated to ```File.ReadAllLines()```.
-  * Arrays are ordered and take up less memory but are fixed size and take O(n) time for insertion and deletion.
-  * Arrays are best used for data which will not be altered or accessed often.
+* The region demonstrating linear search starts at line 48. This searching algorithm sequentially checks each element of a data set. It is generally not very efficient.
+  * **Best Case Runtime:** O(1)
+  * **Worst Case Runtime:** O(n)
 
-* The region showing how the information can be stored in a map starts at line 29. I used a hash table in C# because it is a type of map. The simplest way to do this in C# is to add all of the lines of the text document to an array, and then transfer the data from the array to a hash table. However, we do not want this because it involves creating an array first. Instead, I used a for loop which goes through each line in the text document and manually adds them to the hash table. This can be done by skipping to the desired line and adding it. The for loop keeps track of which line is the desired line.
-  * Maps such as the hash table take up more memory and are unordered but take O(1) time for operations such as insertion and deletion.
-  * Maps are best used for data that will be altered or accessed often.
+* The region demonstrating binary search starts at line 67. This searching algorithm requires a sorted data set. It compares the value in the middle of the data set to the value being searched for. If the values are equal, the target has been found. If the values are not equal, the algorithm determines which half of the data set will contain the target. The search procedure is repeated recursively with the remaining half of the data set that will contain the target value.
+  * **Best Case Runtime** O(1)
+  * **Worst Case Runtime:** O(log n)
 
-* The region showing how the information can be stored in a stack starts at line 50. Adding information to the stack also involves recursively going through each line in the text document and pushing it in string form to the stack. It is mostly similar to the way that I did the hash table.
-  * Stacks are useful when you want to access data that was last stored in the stack.
-  * The choice between using a stack and a queue depends on the order that you want to access the data.
-
-* The region showing how the information can be stored in a queue starts at line 67. Adding information to the queue also involves recursively going through each line in the text document and enqueuing it. It is very similar to adding information to the stack.
-  * Queues are useful when you want to access data in the order that it was stored in the queue.
-  * The choice between using a queue and a stack depends on the order that you want to access the data.
+* The region demonstrating interpolation search starts at line 116. This searching algorithm requires a sorted data set. Binary search always chooses the middle of the data set before discarding one half or the other. Interpolation search uses keys. For interpolation search to work efficiently, data must be uniformly distributed (in addition to being sorted).
+  * **Best Case Runtime:** O(1)
+  * **Worst Case Runtime:** O(n)
