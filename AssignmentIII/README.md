@@ -1,4 +1,4 @@
-# Assignment III
+# Assignment III: Data Structures
 This is a Readme file for [>Assignment III<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentIII/AssignmentIII/Program.cs).
 
 This program demonstrates the creation of an array, a map (in the form of a hash table), a stack, and a queue. Each of these data structures takes information from a text file, called Countries.txt, and adds it to their data. The text file contains a list of all the countries recognized by the United Nations. Each section of the code also contains some lines which can be uncommented to print the data in each structure.
