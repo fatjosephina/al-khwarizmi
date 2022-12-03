@@ -1,4 +1,4 @@
-# Assignment I
+# Assignment I: Code Examples
 This is a Readme file for [>Assignment I<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentI/AssignmentI/Program.cs).
 
 This program demonstrates an understanding of Big O notation in the form of constant time (O(1)), linear time (O(n)), and quadratic time (O(n^2)). It does this by using different variations on writing "Hello."
