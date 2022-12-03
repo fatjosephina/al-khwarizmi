@@ -1,4 +1,4 @@
-# Assignment II
+# Assignment II: Fisher-Yates Shuffle
 This is a Readme file for [>Assignment II<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentII/AssignmentII/Program.cs).
 
 This program demonstrates a the Fisher-Yates shuffle algorithm in two different ways. Both methods use extension classes and the Random class to shuffle an array of letters. All classes are included in the same .cs file for easier reading.
