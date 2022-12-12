@@ -24,3 +24,7 @@ View the source code [>here<](https://github.com/fatjosephina/al-khwarizmi/blob/
 This week, I made a program which demonstrates searching algorithms. The algorithms included are linear sort, binary sort, and interpolation sort. The source code also contains comments including descriptions of each one, best and worst runtimes, and pseudocode versions of these algorithms. The program reads numbers from a text file and sorts them using the different algorithms. It then prints the runtimes for how long each one took to sort the data and compares them in a summary.
 
 View the source code [>here<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentVI/AssignmentVI/Program.cs). View a Readme.md explaining the code in more detail [>here<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentVI/README.md).
+# Assignment VII: Trees
+This week, I made a program which demonstrates the creation of a tree, as well as searching in a tree. It does so using C#'s Dictionary class. The program reads numbers from a text file and adds them to a tree. It then searches the trees for some numbers and prints the results in a summary.
+
+View the source code [>here<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentVII/AssignmentVII/Program.cs). View a Readme.md explaining the code in more detail [>here<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentVII/README.md).
