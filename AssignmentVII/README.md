@@ -1,16 +1,8 @@
-# Assignment VI: Searching
-This is a Readme file for [>Assignment VI<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentVI/AssignmentVI/Program.cs).
+# Assignment VII: Trees
+This is a Readme file for [>Assignment VII<](https://github.com/fatjosephina/al-khwarizmi/blob/main/AssignmentVII/AssignmentVII/Program.cs).
 
-This program demonstrates three different searching algorithms which are used to search the same array of numbers taken from a text file for a pseudorandom number. It then compares how well each algorithm performs time-wise and displays a summary. The searching algorithms included are linear search, binary search, and interpolation search. The code is divided into regions, which each include the implementation of a single algorithm along with comments displaying its name, description, best case runtime, worst case runtime, and the algorithm in pseudocode form. For binary search and interpolation search which require sorted arrays, quick sort is used to sort the array.
+This program demonstrates the creation of a tree, as well as searching in a tree. It does so using C#'s Dictionary class. The program reads numbers from a text file and adds them to a tree. It then searches the trees for some numbers and prints the results in a summary.
 
-* The region demonstrating linear search starts at line 48. This searching algorithm sequentially checks each element of a data set. It is generally not very efficient.
-  * **Best Case Runtime:** O(1)
-  * **Worst Case Runtime:** O(n)
-
-* The region demonstrating binary search starts at line 67. This searching algorithm requires a sorted data set. It compares the value in the middle of the data set to the value being searched for. If the values are equal, the target has been found. If the values are not equal, the algorithm determines which half of the data set will contain the target. The search procedure is repeated recursively with the remaining half of the data set that will contain the target value.
-  * **Best Case Runtime** O(1)
-  * **Worst Case Runtime:** O(log n)
-
-* The region demonstrating interpolation search starts at line 116. This searching algorithm requires a sorted data set. Binary search always chooses the middle of the data set before discarding one half or the other. Interpolation search uses keys. For interpolation search to work efficiently, data must be uniformly distributed (in addition to being sorted).
-  * **Best Case Runtime:** O(1)
-  * **Worst Case Runtime:** O(n)
+* At line 9, the Main() method begins. This method takes in the data from the text file and puts them in an array which is then sorted. It then adds the sorted scores to a tree which is created. Finally, it tests out searching through the tree.
+* The DictionaryNodeRoot class which begins at line 68 allows us to create the root node for the tree. It also contains the logic necessary for searching the tree with the ContainsNumber() method. It loops through the value given and checks if it is present in the tree. It also uses the GetNumber() method of the DictionaryNode class to check if the value is contained in the tree.
+* The DictionaryNode class begins at line 118. This contains the logic for adding a node to the tree as well as getting and setting a number. The symbiosis between the logic of this class and the logic of the DictionaryNodeRoot class is what makes all of the functions of the tree possible.
